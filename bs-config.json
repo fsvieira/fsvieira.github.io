@@ -1,0 +1,6 @@
+{
+  "port": 8000,
+  "files": ["index.html", "templates/**/*.html","js/bundle.js", "css/bundle.css"],
+  "server": { "baseDir": "./" }
+}
+
