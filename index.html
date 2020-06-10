@@ -1,14 +1,71 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>Fsvieira</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/css/bundle.css">
- 	
- 	<script src='/js/bundle.js'></script>
-  </head>
-  <body>
-	  <fsvieira-site></fsvieira-site>
-  </body>
+
+<head>
+    <title>We call them pirates out here!!</title>
+</head>
+
+<style>
+    .projects {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        flex-direction: column;
+        border: 2px solid #b6c1c6;
+        border-radius: 0.5em;
+        margin: 0.5em;
+        flex: 1;
+        /*min-width: 20em;*/
+        color: #444;
+        background-color: #ebf6f7;
+    }
+
+    .card .title {
+        padding: 0.5em;
+        clear: both;
+        border-bottom: 2px solid #b6c1c6;
+        background-color: #dfedf3;
+    }
+
+    .card .content {
+        padding: 0.5em;
+        clear: both;
+    }
+
+    body {
+        color: white;
+        background-color: #444;
+    }
+</style>
+
+<body>
+    <p>My Name is Filipe Vieira and I love coding and open-source!</p>
+
+    <div class='projects'>
+        <div class="card">
+            <div>
+                <div class='title'>
+                    <a href='https://github.com/fsvieira/thecorporation' target='_blank'>The Coporation</a>
+                </div>
+                <div class='content'>
+                    An interactive graphic novel
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div>
+                <div class='title'>
+                    <a href='https://github.com/fsvieira/taskroulette' target="_blank">Task Roulette</a>
+                </div>
+                <div class='content'>
+                    Task Roulette is an effortless task manager that lets you focus on tasks rather than managing them
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>
